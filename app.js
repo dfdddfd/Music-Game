@@ -28,7 +28,7 @@ readdirSync("./commands/").forEach(dir => {
 	};
 });
 
-client.login('NzAxMDMwOTg5Mjk1NjQ4ODcw.Xq1DhQ.TJEdy8Ah4xDBz94gR0unvwKAbhA');
+client.login(token);
 
 client.on("ready", () => {
 	console.log(`${table.toString()}\nLogin ${client.user.username}\n----------------------------`);
