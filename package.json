@@ -1,0 +1,18 @@
+﻿{
+  "name": "Music&game Bot",
+  "version": "1.0.0",
+  "description": "discord bot",
+  "main": "app.js",
+  "scripts": {
+    "start": "node start.js"
+  },
+  "keywords": [
+    "modulebot"
+  ],
+  "engines": {
+    "node": "12.x"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {}
+}
