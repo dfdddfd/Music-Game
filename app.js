@@ -28,7 +28,7 @@ readdirSync("./commands/").forEach(dir => {
 	};
 });
 
-client.login(token);
+client.login(process.env.token);
 
 client.on("ready", () => {
 	console.log(`${table.toString()}\nLogin ${client.user.username}\n----------------------------`);
